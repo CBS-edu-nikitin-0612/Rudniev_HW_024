@@ -14,6 +14,7 @@ namespace task1
 
         static void Main(string[] args)
         {
+            Console.SetWindowSize(100, 24);
             int width = Console.WindowWidth;
             int height = Console.WindowHeight;
             GenerateStartArgs(width, height);
